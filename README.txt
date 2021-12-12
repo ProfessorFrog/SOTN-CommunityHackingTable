@@ -15,7 +15,7 @@ SOTN modding is slow, and we should work together to make things happen. Contact
                                                                                                    
  [A: Find memory values while a game is running]                                                    
  Use cheat engine like you would with any other game to find addresses.                             
- Open cheat engine, click magnifying glass icon (open process), and select your ps1 debug emulator. 
+ Open cheat engine, click magnifying glass icon (open process), and select your ps1 debug emulator's GAME WINDOW.
                                                                                                    
                                                                                                    
  [B: Look for your found addresses in the rom/iso file]                                             
@@ -34,7 +34,7 @@ There are various ways to do this:
 
 [a: 	] Use a debugger emulator, like no$psx, Debugger emulators have RAM organized in a way that doesn't randomize. So we can find and 
         calculate addresses consistently.
-        These also show the hex memory data while the game is running.
+        These also show the hex memory data while the game is running but the address are not the same as in cheat engine.
         Use cheat engine's "open process" on the window that the game
         runs in(some emus have 2 windows) and find memory addresses 
         through cheat engine.
@@ -42,6 +42,7 @@ There are various ways to do this:
 [b: 	] Look for gameshark cheats online and convert them to run-time addresses. (UNFINISHED INSTRUCTIONS)
 
 [c: 	] Get addresses from other hackers and add them to the cheat engine list.
+
 
 
 
@@ -71,6 +72,8 @@ There are various ways to do this;
 		     You need to calculate the location in the rom/iso using the while running memory address you found. 
 		     This is fairly complicated because we need to know the type of address you have at runtime, and what address we need in the iso/rom. (I believe ps1 games 
 		     start at 8000 0000, but this is not the case for other systems)
+                     
+
 
 
 
@@ -108,8 +111,13 @@ uuuh......
 
 
 
+8) [CONVERT ADDRESSES]
+
+CONVERT CHEAT ENGINE ADDRESSES TO NO$PSX ADDRESSES:           <CheatEngineAddress> - 00A8B6A0) + 80000000 = <no$PsxAddress>
 
 
-8) [GOOD SOTN HACKS]
+
+
+9) [GOOD SOTN HACKS]
 https://sotn.io/   <- randomizer with a bunch of features. Default settings are good. Output it as a .ppf file and you can patch it over hacked versions of the game.
 https://github.com/Lakifume/SotnKindAndFair/releases/tag/1.3.4 <- an all-in-one difficulty hack. Click the "ABOUT" button for instructions. patch it with your sotn.io .ppf file for the best sotn experience you can get right now.
