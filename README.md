@@ -5,23 +5,23 @@ SOTN modding is slow, and we should work together to make things happen. Contact
 
 
 
-=========================================USAGE INSTRUCTIONS======================================================
+==USAGE INSTRUCTIONS==
 
-|---------------------------------------------------------------------------------------------------|
-| IMPORTANT DISCLAIMER;                                                                              |
-| In this process we use cheat engine in 2 different ways, and most likely you're gonna want to do   |
-| this in 2 different cheat engine windows.                                                          |
-|                                                                                                    |
-|                                                                                                    |
-| [A: Find memory values while a game is running]                                                    |
-| Use cheat engine like you would with any other game to find addresses.                             |
-| Open cheat engine, click magnifying glass icon (open process), and select your ps1 debug emulator. |
-|                                                                                                    |
-|                                                                                                    |
-| [B: Look for your found addresses in the rom/iso file]                                             |
-| Open Cheat engine, click: "file" -> "open file". Then load up your iso/rom's main file.            |
-| In the case of .cue+.bin games, you'd load the .bin file.                                          |
-|---------------------------------------------------------------------------------------------------|
+
+ IMPORTANT DISCLAIMER;                                                                              
+ In this process we use cheat engine in 2 different ways, and most likely you're gonna want to do   
+ this in 2 different cheat engine windows.                                                          
+                                                                                                   
+                                                                                                   
+ [A: Find memory values while a game is running]                                                    
+ Use cheat engine like you would with any other game to find addresses.                             
+ Open cheat engine, click magnifying glass icon (open process), and select your ps1 debug emulator. 
+                                                                                                   
+                                                                                                   
+ [B: Look for your found addresses in the rom/iso file]                                             
+ Open Cheat engine, click: "file" -> "open file". Then load up your iso/rom's main file.            
+ In the case of .cue+.bin games, you'd load the .bin file.                                          
+
 
 
 
@@ -58,12 +58,12 @@ There are various ways to do this;
 		     Go into cheat engine, go to "file" and click "open file"; select your game's rom/iso.
 		     Set value type to "array of bytes"
 		     click "first scan"
-		     You should be able to find the values in one scan, if not, try copying more than 10 values, say 14 or whatever. and trying again. If you don't find anything, try 
-         copying less values.
+		     You should be able to find the values in one scan, if not, try copying more than 10 values, say 14 or whatever. and trying again. If you don't find 
+		     anything, try copying less values.
 		     Drag the found entry to the bottom section of cheat engine. Once it's there, Set it's "type" by double clicking, and setting it to "byte".
-		     You can change the description of the address by double clicking, this is very important to organize your work. I also suggest you put notes about what the values do in 
-         the cheat table. This way we'll have all our information in one place.
-         Save the cheat file by going to "file", and clicking "save as".
+		     You can change the description of the address by double clicking, this is very important to organize your work. I also suggest you put notes about what the 
+		     values do in the cheat table. This way we'll have all our information in one place.
+                     Save the cheat file by going to "file", and clicking "save as".
 		     Careful; if you click "save file" you'll overwrite the rom/iso.
 
 
@@ -97,6 +97,9 @@ In most emulators the name of the savefile for a game should be the same as the 
 
 HOW DO I KNOW IF AN ADDRESS I FOUND WHILE THE GAME IS RUNNING IS GOING TO BE IN THE ROM/ISO?
 uuuh......
+
+
+
 
 
 8) [GOOD SOTN HACKS]
