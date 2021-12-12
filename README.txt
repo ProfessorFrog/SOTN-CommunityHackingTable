@@ -69,8 +69,9 @@ There are various ways to do this;
 
 [B: 	] Calculate it using a bunch of information. (UNFINISHED INSTRUCTIONS)
 		     You need to calculate the location in the rom/iso using the while running memory address you found. 
-		     This is fairly complicated because we need to know the type of address you have at runtime, and what address we need in the iso/rom. (I believe ps1 games start at 
-         8000 0000, but this is not the case for other systems)
+		     This is fairly complicated because we need to know the type of address you have at runtime, and what address we need in the iso/rom. (I believe ps1 games 
+		     start at 8000 0000, but this is not the case for other systems)
+
 
 
 
@@ -78,8 +79,15 @@ There are various ways to do this;
 With the found rom/iso addresses in our cheat engine list, we can now edit some of those values. Double click on 
 Go to file, and Click "save file" you'll save the iso.
 
+
+
+
 5) [Playtest]
 Open the game in your emulator of choice and see if the changes have worked. If it has. Good on you, romhacker.
+
+
+
+
 
 6) [Creating a patch.]
 Using a program called PPF studio. You can create a patch easily. You load in the original game, load in your hacked game, and it will create a patch from the differences between the 2 game versions.
