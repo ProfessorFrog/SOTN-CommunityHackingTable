@@ -25,11 +25,12 @@ SOTN modding is slow, and we should work together to make things happen. Contact
 
 
 
-0) [Make a backup of your game's rom/iso because we're going to be editing the existing one. This process does NOT save a new rom/iso.]
+0) [MAKE A BACKUP OF YOUR GAME'S ROM/ISO BECAUSE WE'RE GOING TO BE EDITING THE EXISTING ONE. THIS PROCESS DOES NOT SAVE A NEW ROM/ISO.]
 
 
 
-1) [While the game is running, Find the address so we can change a value to edit]
+
+1) [WHILE THE GAME IS RUNNING, FIND THE ADDRESS SO WE CAN CHANGE A VALUE TO EDIT.]
 There are various ways to do this:
 
 [a: 	] Use a debugger emulator, like no$psx, Debugger emulators have RAM organized in a way that doesn't randomize. So we can find and 
@@ -46,12 +47,14 @@ There are various ways to do this:
 
 
 
-2) [Try to edit the value at an address to see what it does.]
+2) [TRY TO EDIT THE VALUE AT AN ADDRESS TO SEE WHAT IT DOES.]
+
 If it does something you think might also exist inside the rom/iso , you'll need to find it in the rom/iso. (Some in-memory stuff that exists while the game is running doesn't always exist in the rom/iso)
 
 
 
-3) [Finding the address in the rom/iso]
+
+3) [FINDING THE ADDRESS IN THE ROM/ISO]
 There are various ways to do this;
 
 [A: 	] Find the unique combination of values we found while the game is running in the rom/iso
@@ -78,21 +81,21 @@ There are various ways to do this;
 
 
 
-4) [Editing the rom/iso using our address list] 
+4) [EDITING THE ROM/ISO USING OUR ADDRESS LIST]
 With the found rom/iso addresses in our cheat engine list, we can now edit some of those values. Double click on 
 Go to file, and Click "save file" you'll save the iso.
 
 
 
 
-5) [Playtest]
+5) [PLAYTEST]
 Open the game in your emulator of choice and see if the changes have worked. If it has. Good on you, romhacker.
 
 
 
 
 
-6) [Creating a patch.]
+6) [CREATING A PATCH.]
 Using a program called PPF studio. You can create a patch easily. You load in the original game, load in your hacked game, and it will create a patch from the differences between the 2 game versions.
 Now you can "legally" distribute your hack over the internet.
 
@@ -102,12 +105,12 @@ Now you can "legally" distribute your hack over the internet.
 
 7) [TROUBLESHOOTING]
 
-MY SAVE IS GONE AFTER I GO TO TEST MY HACKED GAME IN MY EMULATOR
-In most emulators the name of the savefile for a game should be the same as the name of the game iso/rom. So if you renamed your hacked iso, there's your problem.
+- MY SAVE IS GONE AFTER I GO TO TEST MY HACKED GAME IN MY EMULATOR
+  In most emulators the name of the savefile for a game should be the same as the name of the game iso/rom. So if you renamed your hacked iso, there's your problem.
 
 
-HOW DO I KNOW IF AN ADDRESS I FOUND WHILE THE GAME IS RUNNING IS GOING TO BE IN THE ROM/ISO?
-uuuh......
+- HOW DO I KNOW IF AN ADDRESS I FOUND WHILE THE GAME IS RUNNING IS GOING TO BE IN THE ROM/ISO?
+  uuuh......
 
 
 
