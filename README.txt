@@ -1,7 +1,7 @@
 # SOTN-CommunityHackingTable
 This is a list of SymphonyOfTheNight ISO addresses that can be edited for game modding purposes, and then written to the ISO.
 It uses Cheat Engine (cheat engine can apparently write to ISOs), because that makes it easier to share between hackers and build a nice list over time to make the game better.
-SOTN modding is slow, and we should work together to make things happen. Contact me on discord if you want to communicate: Frog#9003
+SOTN modding is slow, and we should work together to make things happen. Contact me on discord if you want to communicate: Frogofthecrazybuttons
 
 
 
@@ -122,5 +122,7 @@ CONVERT CHEAT ENGINE ADDRESSES TO NO$PSX ADDRESSES:           <CheatEngineAddres
 
 
 9) [GOOD SOTN HACKS]
-https://sotn.io/   <- randomizer with a bunch of features. Default settings are good. Output it as a .ppf file and you can patch it over hacked versions of the game.
-https://github.com/Lakifume/SotnKindAndFair/releases/tag/1.3.4 <- an all-in-one difficulty hack. Click the "ABOUT" button for instructions. patch it with your sotn.io .ppf file for the best sotn experience you can get right now.
+https://www.romhacking.net/hacks/8594/                         <-- The best normal way to play sotn. Rebalances the entire game, and it makes more sense than the original game balance did. Read the readme though.
+
+https://sotn.io/                                               <-- randomizer with a bunch of features. Default settings are good. Output it as a .ppf file and you can patch it over hacked versions of the game.
+https://github.com/Lakifume/SotnKindAndFair/releases/tag/1.3.4 <-- an all-in-one difficulty hack. Click the "ABOUT" button for instructions. patch it with your sotn.io .ppf file for the best sotn experience you can get right now.
